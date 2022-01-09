@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  <link rel="stylesheet" href="./src/css/destination-moon.css">
+  <title> Space destination</title>
+</head>
+
+<body>
+  <div class="toggle-menu"><img id="icons" src="./assets/shared/icon-hamburger.svg" alt=""></div>
+  <header>
+    <div class="logo">
+      <img src="./assets/shared/logo.svg" alt="">
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">00 Home</a></li>
+        <li><a href="destination-moon.html">01 Destination</a></li>
+        <li><a href="crew-commander.html">02 Crew</a></li>
+        <li><a href="technology-vehicle.html">03 Technology</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <article>
+      <div class="row">
+        <h3><span>01</span> Pick your destination</h3>
+        <img class="destination-img" src="./assets/destination/image-moon.png" alt="">
+      </div>
+    </article>
+    <section>
+      <aside>
+        <ul>
+          <li><button class="btn active">Moon</button></li>
+          <li><button class="btn">Mars</button></li>
+          <li><button class="btn">Europa</button></li>
+          <li><button class="btn">Titan</button></li>
+        </ul>
+      </aside>
+      <div class="title">
+        <h3 class="title-h3">Moon</h3>
+      </div>
+      <div class="desc">
+        See our planet as you’ve never seen it before. A perfect relaxing trip away to help
+        regain perspective and come back refreshed. While you’re there, take in some history
+        by visiting the Luna 2 and Apollo 11 landing sites.
+      </div>
+      <div class="data">
+        <table>
+          <tr>
+            <th> Avg. distance</th>
+            <th> Est. travel time</th>
+          </tr>
+          <tr>
+            <td id="distance"> 384,400 km</td>
+            <td id="travel"> 3 days</td>
+          </tr>
+        </table>
+      </div>
+    </section>
+  </main>
+  <script src="./src/js/destination.js"></script>
+
+</body>
+
+</html>
