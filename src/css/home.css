@@ -16,7 +16,7 @@ body {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    background: url('https://github.com/ajarek/space-tourism/blob/master/assets/home/background-home-desktop.jpg');
+    background: url('assets/home/background-home-desktop.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
